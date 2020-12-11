@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField layoutX="275.0" layoutY="14.0" text="DungeonGame" />
+      <Button fx:id="MAZESECTION" layoutX="42.0" layoutY="70.0" mnemonicParsing="false" onAction="#MapExits" prefHeight="50.0" prefWidth="192.0" text="MAZESECTION" />
+      <Button fx:id="ADVANCEDSECTION" layoutX="42.0" layoutY="386.0" mnemonicParsing="false" onAction="#PlayKillEnemy" prefHeight="50.0" prefWidth="192.0" text="ADVANCEDSECTION" />
+      <Button fx:id="BouldersSection" layoutX="42.0" layoutY="150.0" mnemonicParsing="false" onAction="#PlayBoulders" prefHeight="50.0" prefWidth="192.0" text="BOULDERSECTION" />
+      <Button fx:id="PORTALSECTION" layoutX="42.0" layoutY="225.0" mnemonicParsing="false" onAction="#PortalTeleport" prefHeight="50.0" prefWidth="192.0" text="PORTALSECTION" />
+      <Button fx:id="SUPERADVANCESECTION" layoutX="474.0" layoutY="336.0" mnemonicParsing="false" onAction="#PlayExtension" prefHeight="50.0" prefWidth="192.0" text="SUPERADVANCESECTION" />
+      <Button fx:id="NoobGuide" layoutX="512.0" layoutY="120.0" mnemonicParsing="false" onAction="#PlayerGuide" prefHeight="68.0" prefWidth="117.0" text="NoobGuide" />
+      <Button fx:id="DOORSECTION" layoutX="42.0" layoutY="309.0" mnemonicParsing="false" onAction="#OpenDoors" prefHeight="50.0" prefWidth="192.0" text="DOORSECTION" />
+   </children>
+</Pane>
