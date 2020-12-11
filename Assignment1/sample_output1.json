@@ -1,0 +1,61 @@
+{
+    "venue": "Westfield",
+    "rooms": [
+      "Myer",
+      "WoolWorth"        
+    ],
+    "status": "success"  
+  }
+  {
+    "venue": "Westfield",  
+    "rooms": ["WoolWorth"],
+    "status": "success"    
+  }
+  {
+    "venue": "Westfield",  
+    "rooms": ["WoolWorth"],
+    "status": "success"    
+  }
+  {
+    "venue": "Westfield",  
+    "rooms": ["Myer"],     
+    "status": "success"    
+  }
+  {
+    "venue": "Westfield",  
+    "rooms": ["Myer"],     
+    "status": "success"    
+  }
+  {
+    "venue": "NorthField",
+    "rooms": ["Sea"],
+    "status": "success"
+  }
+  [
+    {
+      "reservation": [{
+        "start": "2019-03-25",
+        "end": "2019-03-26",
+        "id": "Match"
+      }],
+      "room": "Myer"
+    },
+    {
+      "reservation": [
+        {
+          "start": "2019-03-01",
+          "end": "2019-03-08",
+          "id": "Party"
+        },
+        {
+          "start": "2019-03-24",
+          "end": "2019-03-26",
+          "id": "Convention"
+        }
+      ],
+      "room": "WoolWorth"
+    },
+    {
+      "reservation": [],
+      "room": "Coles"
+    }

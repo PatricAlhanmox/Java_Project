@@ -1,0 +1,12 @@
+{ "command": "room", "venue": "Westfield", "room": "Myer", "size": "small" }
+{ "command": "room", "venue": "Westfield", "room": "WoolWorth", "size": "large" }
+{ "command": "room", "venue": "Westfield", "room": "Coles", "size": "large" }
+{ "command": "room", "venue": "NorthField", "room": "Sea", "size": "medium" }
+{ "command": "request", "id": "Meeting", "start": "2019-03-22", "end": "2019-03-23", "small": 1, "medium": 0, "large": 1 }
+{ "command": "request", "id": "Convention", "start": "2019-03-24", "end": "2019-03-26", "small": 0, "medium": 0, "large": 1 }
+{ "command": "request", "id": "Party", "start": "2019-03-01", "end": "2019-03-08", "small": 0, "medium": 0, "large": 1 }
+{ "command": "change", "id": "Meeting", "start": "2019-03-27", "end": "2019-03-29", "small": 1, "medium": 0, "large": 0 }
+{ "command": "request", "id": "Match", "start": "2019-03-25", "end": "2019-03-26" , "small": 1, "medium": 0, "large": 0 }
+{ "command": "cancel", "id": "Meeting" }
+{ "command": "request", "id": "Internet", "start": "2019-03-26", "end": "2019-03-26", "small": 0, "medium": 1, "large": 0 }
+{ "command": "list", "venue": "Westfield" }
